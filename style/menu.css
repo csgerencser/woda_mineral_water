@@ -40,7 +40,13 @@ img#menutoggle-close {
     div#menutoggle {
         display: initial;
     }
-    nav#topmenu {
+    /* nav#topmenu {
         display: none;
+    } */
+    nav.top-menu {
+        flex-direction: row;
+    }
+    nav.top-menu ul li {
+        display: initial;
     }
 }

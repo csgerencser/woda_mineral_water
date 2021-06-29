@@ -27,3 +27,24 @@ header.fix-header {
     z-index: 99;
 }
 
+@media screen and (max-width: 1024px) {
+    div.logo {
+        grid-area: "logo";
+    }
+
+    div#menutoggle {
+        grid-area: "toggle";
+    }
+
+    nav.top-menu {
+        grid-area: "topmenu";
+    } 
+
+    header.fix-header {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-columns: "logo toggle"
+                               "topmenu topmenu";
+        height: 100vh;
+    }
+}

@@ -27,3 +27,16 @@ nav.top-menu ul li a:hover {
     color: hsl(50, 8%, 8%);
 }
 
+div#menutoggle,
+img#menutoggle-close {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    div#menutoggle {
+        display: initial;
+    }
+    nav#topmenu {
+        display: none;
+    }
+}

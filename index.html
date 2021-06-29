@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="style/hero.css">
     <link rel="stylesheet" href="style/content.css">
     <link rel="stylesheet" href="style/footer.css">
+    <meta name="theme-color" content="hsl(50, 100%, 50%)">
 </head>
 <body>
     <header class="fix-header">
@@ -22,7 +23,7 @@
                 <img src="images/woda logo small-96.png">
             </div>    
         </div>
-        <nav class="top-menu background-dark-blurred dropshadow-dark">
+        <nav class="top-menu background-dark-blurred dropshadow-dark" id="topmenu">
             <ul>
                 <li class="active"><a href="index.html">Főoldal</a></li>
                 <li><a href="termekeink.html">Termékeink</a></li>
@@ -31,6 +32,10 @@
                 <li><a href="kapcsolat.html">Kapcsolat</a></li>
             </ul>
         </nav>
+        <div id="menutoggle" class="background-dark-blurred dropshadow-dark">
+            <img src="images/menutoggle-open.png" alt="menutoggle-open" id="menutoggle-open">
+            <img src="images/menutoggle-close.png" alt="menutoggle-close" id="menutoggle-close">
+        </div>
     </header>
     <main>
         <section class="landing">

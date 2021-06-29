@@ -1,0 +1,94 @@
+main section.content-container {
+    padding: 156pt 120pt 94pt 120pt;
+}
+
+@media screen and (max-width: 1024px) {
+    main section.content-container {
+        padding: 156pt 60pt 47pt 60pt;
+    }
+}
+
+h2,
+h3 {
+    color: hsl(184, 100%, 27%);
+    text-transform: uppercase;
+}
+
+main section.content-container h2 {
+    text-align: center;
+    padding-bottom: 94pt;
+    font-size: 24pt;
+}
+
+/* RETAILERS */
+
+section.retailers div {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section.retailers img:nth-child(2) {
+    padding-left: 64pt;
+    padding-right: 64pt;
+}
+
+@media screen and (max-width: 1195px) {
+    section.retailers div {
+        flex-flow: column;
+    }
+    
+    section.retailers img {
+        margin-bottom: 32px;
+    }
+    
+    section.retailers img:nth-child(2) {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+/* Cards */
+div.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+div.card-small {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 16px;
+}
+
+div.card-small img {
+    height: 280px;
+}
+
+div.card-small .card-content {
+    text-align: center;
+    padding: 16px;
+}
+
+div.card-small .card-content h3 {
+    padding-bottom: 16px;
+}
+
+a.navigation-button {
+    display: inline-block;
+    color: hsl(50, 100%, 50%);
+    text-decoration: none;
+    padding: 6px 28px 7px 28px;
+}
+
+section.recommendations p {
+    text-align: center;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+section.recommendations p:first-of-type {
+    font-weight: 600;
+}

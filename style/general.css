@@ -10,11 +10,11 @@ body {
 }
 
 .dropshadow {
-    box-shadow: 3px 3px 6px hsl(50, 20%, 50%);
+    box-shadow: 0px 0px 8px hsl(50, 20%, 50%);
 }
 
 .dropshadow-dark {
-    box-shadow: 3px 3px 6px hsl(50, 8%, 8%);
+    box-shadow: 0px 0px 8px hsl(50, 8%, 8%);
 }
 
 .background-dark {

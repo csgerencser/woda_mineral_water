@@ -27,6 +27,10 @@ nav.top-menu ul li a:hover {
     color: hsl(50, 8%, 8%);
 }
 
+div#menutoggle {
+    padding-right: 28px;
+}
+
 div#menutoggle,
 img#menutoggle-close {
     display: none;

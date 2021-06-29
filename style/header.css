@@ -1,7 +1,7 @@
 .logo {
     position: relative;
     width: 150px;
-    height: 96px;
+    height: 64px;
 }
 
 div.logo div.logo-container {
@@ -13,19 +13,17 @@ div.logo div.logo-container {
 }
 
 .logo img {
-    height: 96px;
+    height: 64px;
     padding: 8px;
 }
-
-
 
 header.fix-header {
     position: fixed;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     width: 100%;
     justify-content: space-between;
-    padding: 24pt 24pt;
+    padding: 8px;
     z-index: 99;
 }
 

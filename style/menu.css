@@ -45,8 +45,11 @@ img#menutoggle-close {
     } */
     nav.top-menu {
         flex-direction: row;
+        justify-content: center;
     }
     nav.top-menu ul li {
-        display: initial;
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }

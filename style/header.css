@@ -29,22 +29,25 @@ header.fix-header {
 
 @media screen and (max-width: 1024px) {
     div.logo {
-        grid-area: "logo";
+        grid-area: logo;
     }
 
     div#menutoggle {
-        grid-area: "toggle";
+        grid-area: toggle;
+        padding-top: 16px;
     }
 
     nav.top-menu {
-        grid-area: "topmenu";
+        grid-area: topmenu;
     } 
 
     header.fix-header {
         display: grid;
+        grid-template-rows: 1fr 2fr;
         grid-template-columns: 1fr auto;
-        grid-template-columns: "logo toggle"
+        grid-template-areas: "logo toggle"
                                "topmenu topmenu";
         height: 100vh;
+        align-items: start;
     }
 }

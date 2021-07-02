@@ -40,6 +40,8 @@ header.fix-header {
     nav.top-menu {
         grid-area: topmenu;
         align-self: center;
+        opacity: 0;
+        transition: opacity 0.5s;
     } 
 
     header.fix-header {
@@ -51,6 +53,6 @@ header.fix-header {
         /* height: 100vh;  -- fullscreen size */
         height: 80px;
         align-items: start;
-        transition: height 1s;
+        transition: height 0.5s;
     }
 }

@@ -78,8 +78,25 @@ div.card-small .card-content {
 
 div.card-small .card-content h3 {
     padding-bottom: 16px;
-
 }
+
+div.card-large {
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    margin: 16px;
+}
+
+div.card-large .card-content {
+    text-align: left;
+    padding: 24px;
+}
+
+div.card-large .card-content h3 {
+    padding-bottom: 24px;
+}
+
+/* Recommendations */
 
 a.navigation-button {
     display: inline-block;
@@ -96,4 +113,8 @@ section.recommendations p {
 
 section.recommendations p:first-of-type {
     font-weight: 600;
+}
+
+.shop-logo {
+    height: 64pt;
 }

@@ -29,3 +29,21 @@ menuToggle.addEventListener("click", (event) => {
     }
     menuVisible = !menuVisible;
 })
+
+function toggleMenuVisibility(isVisible) {
+    if (isVisible) {
+        topMenu.style.display = "block";
+        topMenu.style.opacity = 1;
+    } else {
+        topMenu.style.display = "none";
+        topMenu.style.opacity = 0;
+    }
+}
+
+window.addEventListener('resize', (event) => {
+    if (document.documentElement.clientWidth > 1024) {
+        toggleMenuVisibility(true);
+    } else {
+        toggleMenuVisibility(false);
+    }
+});

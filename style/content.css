@@ -87,6 +87,10 @@ div.card-large {
     margin: 16px;
 }
 
+div.card-large-reverse {
+    flex-direction: row-reverse;
+}
+
 div.card-large .card-content {
     text-align: left;
     padding: 24px;

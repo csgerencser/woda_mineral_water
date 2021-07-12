@@ -54,7 +54,7 @@ section.retailers img:nth-child(2) {
 }
 
 /* Cards */
-div.card-container {
+section.card-small-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -80,15 +80,24 @@ div.card-small .card-content h3 {
     padding-bottom: 16px;
 }
 
+section.card-large-container {
+    display: flex;
+    flex-flow: column;
+}
+
 div.card-large {
     display: flex;
     flex-direction: row;
-    height: 250px;
+    min-height: 300px;
     margin: 16px;
 }
 
 div.card-large-reverse {
     flex-direction: row-reverse;
+}
+
+div.card-large img {
+    height: 280px;
 }
 
 div.card-large .card-content {
@@ -121,4 +130,22 @@ section.recommendations p:first-of-type {
 
 .shop-logo {
     height: 64pt;
+}
+
+/* Contact details */
+
+section.contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(300px, auto);
+    grid-template-areas: "map map map"
+                        "instagram email phone";
+    align-content: center;
+    justify-content: center;
+    width: 50vw;
+    margin: auto;
+}
+
+section.contact-container > :first-child {
+    grid-area: map;
 }
